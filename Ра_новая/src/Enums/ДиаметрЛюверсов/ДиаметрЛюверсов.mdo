@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16e62f20-e2b4-4436-82e2-4c68a9631adc">
+  <producedTypes>
+    <refType typeId="41303cf5-4051-4bae-8bb2-f2e9b3698474" valueTypeId="1635be7b-1d79-4616-a849-03927fb91627"/>
+    <listType typeId="38da4e49-e988-4452-a240-2bbfe41bd029" valueTypeId="d98f8e0b-72fb-40d2-ab1e-915164f89960"/>
+    <managerType typeId="8cf8a20a-4313-427f-bfa2-5d64f6c0b653" valueTypeId="4740475d-7c1f-49eb-bd35-b5545933fb5f"/>
+  </producedTypes>
+  <name>ДиаметрЛюверсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаметр люверсов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4adcb153-5473-4d88-95c9-d59db79a51a4">
+    <name>_10мм</name>
+    <synonym>
+      <key>ru</key>
+      <value>10 мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="212c3b76-02d8-46ec-9294-77df324fe228">
+    <name>_12мм</name>
+    <synonym>
+      <key>ru</key>
+      <value>12 мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c899354d-8631-45a1-90aa-4968698ad62a">
+    <name>_16мм</name>
+    <synonym>
+      <key>ru</key>
+      <value>16 мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="046fae4e-22f4-4b8a-a070-6bb49fd4e433">
+    <name>_20мм</name>
+    <synonym>
+      <key>ru</key>
+      <value>20 мм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="943302a6-50e6-49b8-ac2e-7828274db2c5">
+  <producedTypes>
+    <objectType typeId="7b405464-e235-4458-986b-291aaab7a5d9" valueTypeId="3cc50b8e-989e-48df-af81-826864981556"/>
+    <refType typeId="818c24b4-fd31-417e-abca-819334b6243a" valueTypeId="bb6aa8bc-943b-4bbf-a332-b911b03a3f4f"/>
+    <selectionType typeId="88df83c9-34ea-4752-97a7-8a85cb894eae" valueTypeId="f184997b-2ec0-4362-bd44-4aa6043244f0"/>
+    <listType typeId="d2d0a1af-a694-40f0-b1d7-ece78c1e7268" valueTypeId="b2d73a50-8a41-4587-b142-6466facfecc9"/>
+    <managerType typeId="1eee1f83-d2cd-45c2-8c6a-05eb391a4c9a" valueTypeId="26431db1-de5b-44de-acbf-e8864a3085a6"/>
+  </producedTypes>
+  <name>НоменклатураБухгалтерии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура бухгалтерии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураБухгалтерии.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураБухгалтерии.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

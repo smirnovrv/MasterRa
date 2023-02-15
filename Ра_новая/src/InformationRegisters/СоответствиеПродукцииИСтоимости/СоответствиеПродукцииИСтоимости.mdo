@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dfc80e4-f450-4e8f-8264-77138d90c046">
+  <producedTypes>
+    <selectionType typeId="a536b199-e5dd-4ff7-81d7-8e783416b254" valueTypeId="4e0d22a3-a57a-47a9-af9e-aa30256ce0b3"/>
+    <listType typeId="e1e96cb6-2bfc-4496-beff-c9d65a4f5de4" valueTypeId="ae5293b7-d5c3-4e1f-a09b-2a7895c96eb4"/>
+    <managerType typeId="4edbb82c-ef9f-40ff-a253-6ba6ac277ce7" valueTypeId="2d6da081-e9bc-4c37-8f5d-397742a65248"/>
+    <recordSetType typeId="51152e4a-c6ef-4bb3-ad3d-3868c0b3dbe8" valueTypeId="c4222f84-c5f5-4f5d-b543-f55e64b87c4c"/>
+    <recordKeyType typeId="157e9b19-8ccf-4d61-8cf0-7f2ef3691178" valueTypeId="a9962091-9ec4-4ffc-ab81-b4e51a097112"/>
+    <recordType typeId="cc07eabb-47bf-4c9a-8a97-1959d575b2f8" valueTypeId="8f39f707-eb9f-4332-a182-ca3702fb94c2"/>
+    <recordManagerType typeId="6648649e-89cc-4e18-b35d-09b272de7127" valueTypeId="15210a75-da08-41fb-b97e-088ccbf0c088"/>
+  </producedTypes>
+  <name>СоответствиеПродукцииИСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие продукции и стоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b215681a-09c8-4576-8dbd-9a3c69d568e0">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РаботыСтоимости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="983c971f-b9f9-406c-8bd8-68e6f7921619">
+    <name>ВидРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид работ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

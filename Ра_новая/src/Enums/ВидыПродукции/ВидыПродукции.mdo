@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe6bc9bc-7805-4509-b6fa-0128fb07b2c4">
+  <producedTypes>
+    <refType typeId="4d9a8dfc-e5d6-4120-9e24-94ddba994436" valueTypeId="1751c023-5dfd-4a18-9f1d-630a7dfec3be"/>
+    <listType typeId="ee25e780-452c-4ed4-b354-1e4f2c17fb1c" valueTypeId="ab96d9e3-714a-443b-b427-f1c6278967cd"/>
+    <managerType typeId="fa809c28-dcdd-4c3f-8189-5c5b73a4f353" valueTypeId="242cbfce-cc91-4bd3-80e9-60ec751da30d"/>
+  </producedTypes>
+  <name>ВидыПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды продукции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a100e5db-5e0e-43e5-b6b4-bde393d34729">
+    <name>Флаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Флаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd33a44c-73ce-4426-a958-2ab3775e4d09">
+    <name>НестандартныйРазмер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нестандартный размер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="deb6007a-939c-4cc8-8732-1642f2d7cbf5">
+    <name>Цветопроба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цветопроба</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5dcf7d28-5afc-48a3-b822-d0c6d604fd6f">
+    <name>Перетяжка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перетяжка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d5f553c-d807-4690-b642-a28c42e123ce">
+    <name>ПродажаЗаказчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа заказчику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2fc69ea-3b9c-4c2b-b0d8-ec3bb8c3a2bf">
+    <name>ПродажаСотруднику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа сотруднику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

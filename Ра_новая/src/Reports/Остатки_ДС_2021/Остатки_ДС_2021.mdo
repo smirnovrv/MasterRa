@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88047a53-a09c-4267-9eca-b6b871019f59">
+  <producedTypes>
+    <objectType typeId="692f461b-715a-4d0a-b53f-05d3b0a2fb2a" valueTypeId="fefb7c53-5c21-434a-9940-4b7ad5699105"/>
+    <managerType typeId="72e5aed9-693f-42a8-a1cd-1e513e37f540" valueTypeId="f94374e9-0331-4d50-831e-972edfaf5572"/>
+  </producedTypes>
+  <name>Остатки_ДС_2021</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ДС 2021</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Остатки_ДС_2021.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="163ea5c7-c242-42bf-b5e3-82d701ffd125">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

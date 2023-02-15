@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f400a1d-e548-4ab9-b05e-9096f4fb0e9c">
+  <producedTypes>
+    <objectType typeId="187a09f4-087c-4c2f-97b1-697d9423c857" valueTypeId="4d9f5b65-0a8e-4bb4-8b18-de89fa9ebc9b"/>
+    <managerType typeId="1581f821-8fd4-4544-bdd0-de6b6180bc88" valueTypeId="72c21da0-9a47-488b-9798-2e387d88efb8"/>
+  </producedTypes>
+  <name>ГрупповоеВыставлениеСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое выставление счетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповоеВыставлениеСчетов.Form.Форма</defaultForm>
+  <tabularSections uuid="aa3a8c36-d1a8-4204-9162-3b190ac64a20">
+    <producedTypes>
+      <objectType typeId="394331be-0e21-4239-bef7-805c01306ce0" valueTypeId="c35e8332-4734-4587-8129-66c7137f2737"/>
+      <rowType typeId="ca7daaa7-bd19-496d-a6e9-730b592fd499" valueTypeId="badeb97c-6ee5-4c8b-84a6-373a3f5afba8"/>
+    </producedTypes>
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d7d216ae-f976-4d46-af9a-1480e739ec58">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Заявка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6f47d69-46ad-4067-9e18-a8d2f0cbaf61">
+      <name>Менеджер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Менеджер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="295779e5-52d0-4283-a0e0-03277bdffd54">
+      <name>Плательщик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плательщик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="867cc320-6e00-4319-b628-b3fb6f4bbf8b">
+      <name>Бренд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Бренд</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Бренды</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="995bfa16-dbea-47e8-95a2-b7f2c5ffefe6">
+      <name>НазваниеЗаказа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название заказа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8de719d1-0bee-4446-a2b2-5f475c7dae17">
+      <name>ИтогоЗаВесьЗаказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Итого за весь заказ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="94ce81e8-d11a-485a-8102-ab9dfab0380b">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="85a754e8-03b2-4e3c-bd70-fe50f1e37e6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

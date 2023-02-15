@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d482485-41c1-40df-8d56-e029f6bc909a">
+  <producedTypes>
+    <refType typeId="56c23c91-1cd5-4c05-8191-4dfeb4872137" valueTypeId="4a7fca19-2382-4a24-89c5-1c661e039052"/>
+    <listType typeId="5a1298ca-7761-48fb-aaba-b2bf85861530" valueTypeId="b822b850-4108-4422-be2f-8673b305f2bc"/>
+    <managerType typeId="40c3c386-b76f-441b-bb46-db40cf2998bb" valueTypeId="c93b7aa2-42c5-4cf5-87e3-4d45c94d339d"/>
+  </producedTypes>
+  <name>ВидыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды работ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be60810c-ff69-4da0-ac37-91aeef34ec81">
+    <name>Гравировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гравировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6cbbc99-0ea5-4fb3-95b1-1235830a82d8">
+    <name>Дизайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дизайн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="815fb99b-f46f-44cd-b5a4-05d88a125870">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83a8f9e0-46b4-40bf-8a7f-709cd59c1426">
+    <name>ИзготовлениеТаблички</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изготовление таблички</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7901f6ca-8354-48c4-9aba-f1ac1227105a">
+    <name>ЛазернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лазерная резка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d8ed34c-bf2f-4d76-91ea-da3f64dfaf24">
+    <name>Ламинация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ламинация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02d16e0d-ee90-40dc-8afb-88696caecf28">
+    <name>Монтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a174de8f-1b26-4ca6-a0e8-9f2970c2d38e">
+    <name>Накатка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накатка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d35d8dec-a3cc-49a4-8030-ae44f5cef733">
+    <name>Окраска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окраска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f53dafab-73c4-421f-822b-d918b3a81725">
+    <name>ПечатьНаТкани</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать на ткани</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d783a075-9687-4cea-8825-e27a99ddde12">
+    <name>ПлотернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плотерная резка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f0817cd-fbb9-47ed-898b-c2f015d6daa9">
+    <name>ПостпечатныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постпечатные работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bb55fea-c09c-4b11-93fc-ea112f86090c">
+    <name>ПродажаМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа материала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d27a06ac-5200-4cdf-8b81-dc91b9b88509">
+    <name>Резка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6124e70d-c3e0-46bf-8999-ee0e9e2ab2d8">
+    <name>Сборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82313463-392a-498e-a9f3-b2e359a13a63">
+    <name>Сварка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сварка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8279b015-c71a-4b06-84ab-f4462c25d3c4">
+    <name>СобственнаяПечатьНестандартныйРазмер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственная печать нестандартный размер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a14a0e77-5889-4fde-9fae-b61ecd6473f7">
+    <name>СобственнаяПечатьЦветопроба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственная печать цветопроба</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="636d28e5-3e3c-4930-a0c9-346d9f1cc4ad">
+    <name>ФрезернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фрезерная резка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

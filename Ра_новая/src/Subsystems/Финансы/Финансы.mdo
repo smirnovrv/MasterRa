@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee2279f4-c53d-40ab-89b3-1c6749305bd4">
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Финансы</picture>
+  </picture>
+  <content>Document.РасходныйКассовыйОрдер</content>
+  <content>Catalog.Кассы</content>
+  <content>Catalog.НоменклатураБухгалтерии</content>
+  <content>Document.ПриходныйКассовыйОрдер</content>
+  <content>Report.КассовыйОтчетПолный</content>
+  <content>Report.Остатки_ДС_2021</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Report.Остатки_ДС_2021_ПоОрганизации</content>
+</mdclass:Subsystem>

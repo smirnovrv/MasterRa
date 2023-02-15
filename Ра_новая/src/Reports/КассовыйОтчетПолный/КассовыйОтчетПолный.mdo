@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e56e7b71-95ff-47ff-84cd-e079a489557e">
+  <producedTypes>
+    <objectType typeId="898d9fff-7e72-4d13-8dc8-5cb9896314f0" valueTypeId="7a5d1c50-1e57-4a47-a679-e425b30492ba"/>
+    <managerType typeId="93e1942a-0e8d-469c-997b-a9183e97a6d7" valueTypeId="5c31e26b-1bb5-4e8c-b34d-233d8cee3176"/>
+  </producedTypes>
+  <name>КассовыйОтчетПолный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовый отчет полный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КассовыйОтчетПолный.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КассовыйОтчетПолный.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="5edd362e-6270-42ae-ad0c-d04f4fbeff51">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="36bc5e96-c7d1-4384-9d35-79ef861c30c7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="bfc3d883-55d8-4345-873f-1deb343a29ea">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="031c5a22-01d5-4f2e-89f1-fe31abd587eb">
+  <producedTypes>
+    <refType typeId="fb3bd5c7-1912-45f3-9aca-f8588dcd5638" valueTypeId="481954ca-91ee-407a-9e19-3d9bb3ce0170"/>
+    <listType typeId="5cce08fa-8b8d-49c2-b176-2c80b8ddc0f3" valueTypeId="d00a4e43-adbd-44cd-929b-84185f94c284"/>
+    <managerType typeId="94714468-ce5e-4b62-85d8-8634358c2904" valueTypeId="17e40d4c-6648-481b-ad52-e5541fbd5a30"/>
+  </producedTypes>
+  <name>РежимыПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы печати</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5c73fb76-7197-448f-8a4c-416c516b25a6">
+    <name>_2_90</name>
+    <synonym>
+      <key>ru</key>
+      <value>2, 90%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a355253c-dcef-4a4d-9d1f-2caf03fe4d17">
+    <name>_2_100</name>
+    <synonym>
+      <key>ru</key>
+      <value>2, 100%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa9fb418-9a33-4f3a-be18-08ec91b00d5e">
+    <name>_3_60</name>
+    <synonym>
+      <key>ru</key>
+      <value>3, 60%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="321fdcd8-0881-41db-9cc3-5b6bef9133d8">
+    <name>_3_70</name>
+    <synonym>
+      <key>ru</key>
+      <value>3, 70%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="414d16b9-efde-479c-aa7c-630dd196b515">
+    <name>_3_80</name>
+    <synonym>
+      <key>ru</key>
+      <value>3, 80%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0129ccb0-3369-4c0e-a188-8fbcb97b8ea5">
+    <name>_3_90</name>
+    <synonym>
+      <key>ru</key>
+      <value>3, 90%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0669f419-191d-4878-b32e-162e35dd9200">
+    <name>_3_100</name>
+    <synonym>
+      <key>ru</key>
+      <value>3, 100%</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

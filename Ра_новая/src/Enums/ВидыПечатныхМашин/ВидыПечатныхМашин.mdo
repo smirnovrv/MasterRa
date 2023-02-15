@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f4a328e-d8f6-4bc9-942d-f778ac5b6824">
+  <producedTypes>
+    <refType typeId="65ae1bf7-f280-454e-b398-c07a6da0426c" valueTypeId="848c5b13-378d-4d10-beed-b35e52db545f"/>
+    <listType typeId="73bc69d1-a453-4246-afe9-b462350c4ea2" valueTypeId="09491f01-ff78-4dc7-9f96-47bf4d751a78"/>
+    <managerType typeId="13ede6d7-548b-490b-9bdd-29d1e2288e62" valueTypeId="5d6b5c67-7e07-4dcc-939e-21777cae1ccf"/>
+  </producedTypes>
+  <name>ВидыПечатныхМашин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды печатных машин</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90c8977f-5ac2-4e33-97f5-b19792e81cd9">
+    <name>Интерьерная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерьерная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1a6c5c5-3ecc-43d6-950c-fa203dc72e50">
+    <name>Широкоформатная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Широкоформатная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

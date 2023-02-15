@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1466bee4-5baa-4f94-9c07-add6d3669387">
+  <producedTypes>
+    <refType typeId="9464ade1-42e9-4112-9c44-0e7706e3d7a6" valueTypeId="f4a41793-f22d-462f-8950-6deddb41e0ed"/>
+    <listType typeId="8d376ccd-9e00-4108-b265-361f543326a6" valueTypeId="bb69cd27-67db-484d-80b1-a5ae362ee8dc"/>
+    <managerType typeId="356eef80-448a-435d-a2d8-d48ea3d34527" valueTypeId="accadce3-fa3d-4272-8853-bc8a8a14b4f1"/>
+  </producedTypes>
+  <name>Статусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8dc9b863-31cd-41b0-bf64-91ae6824374b">
+    <name>Вработе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вработе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b6876c8-b2d3-4af5-93ef-7d5cf05b310e">
+    <name>Готов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82cefdf5-b08f-4fdf-893c-810675d6ad70">
+    <name>ДебиторкаПросрочена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дебиторка просрочена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e695b06-d585-4f56-b4b7-10e1fbb21eb9">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb4ba296-be4c-4f24-a68b-abf7fbe2053a">
+    <name>ЗаполненаСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнена с ошибкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c06192c9-a780-43eb-9f28-8533def33acd">
+    <name>НаСогласованииЗаказчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании заказчика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9f9cc7d-059e-4456-b273-b884161d7977">
+    <name>НетДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb3eb7fc-5481-4068-b49e-3c7daf165799">
+    <name>ПеределкаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переделка заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b887f8a-bf63-4876-b1e5-1bc2f46c0f57">
+    <name>Проверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

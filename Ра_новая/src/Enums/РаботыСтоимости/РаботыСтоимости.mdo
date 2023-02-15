@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="297e7283-59a0-4100-96ee-502a4c96fd9b">
+  <producedTypes>
+    <refType typeId="b21a8fac-30ee-4235-ba15-a00f64f0c6d2" valueTypeId="5b3ed44e-4396-4fc8-b883-1be237eefe90"/>
+    <listType typeId="209c0746-452e-414b-a059-499468b10053" valueTypeId="e4586690-8ab9-4852-98cd-36367a0edd11"/>
+    <managerType typeId="9ac4a0b7-9b00-4713-a441-f2f8cd2dc23f" valueTypeId="ae08e742-b342-4e45-a48c-d8a63dc859ed"/>
+  </producedTypes>
+  <name>РаботыСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работы стоимости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e8fba559-9e7e-440f-95ed-423214d777b8">
+    <name>АгентскоеВознаграждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Агентское вознаграждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebbc8b2c-496f-4ac5-97b8-a42dc8669349">
+    <name>Выборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05215f1a-fce8-46a8-9867-4007bdf26b95">
+    <name>Гравировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гравировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce14ae4d-4c17-49d6-99d6-0b992a404e2f">
+    <name>Демонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демонтаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55691e95-58ec-47a2-af7c-41619139be74">
+    <name>Дизайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дизайн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="093f4367-f3a3-4520-8863-5ba2cb16fd2f">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84b9d6fb-7420-46b4-936d-5c54bc4f5fba">
+    <name>ИзготовлениеТаблички</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изготовление таблички</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="453f139d-0d13-4751-9707-e039773b5748">
+    <name>ЛазернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лазерная резка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b5dc5d6-3852-4143-a3d5-985d5741c3a7">
+    <name>Ламинация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ламинация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00b89626-62de-4c48-aa0f-4087ecc39081">
+    <name>Монтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="626a61c4-902e-4375-9d6b-9582d336ffaf">
+    <name>Монтажка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтажка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c528a910-9d74-45fe-82f9-e876d0bd2105">
+    <name>Окраска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окраска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="662c9f15-ff99-412c-9e45-c489d27341f5">
+    <name>ПечатьНаТкани</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать на ткани</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0334b08b-f494-4068-9a66-f3b15a3539b2">
+    <name>ПечатьТиража</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать тиража</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a99507f-564d-4a5e-866b-39ae7a36e51f">
+    <name>ПлотернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плотерная резка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="075accf7-5d91-4ff9-b056-45e98fba1aa0">
+    <name>ПостпечатныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постпечатные работы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95234b1b-1c52-4e8e-91c4-2d83432a4b76">
+    <name>ПродажаМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа материалов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d295e75-daac-4a30-9b9d-ae9a0896c822">
+    <name>ПродажаУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e90ebace-aaef-4611-b678-c694c568aa3a">
+    <name>Резка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af874869-e77a-4873-9162-e512b11eec41">
+    <name>Сборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31fb293b-ec91-4d2f-94bf-b0ba83b906fe">
+    <name>Сварка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сварка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac2fca61-a09f-4545-ba29-9223e62c4dd8">
+    <name>ФрезернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фрезерная резка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

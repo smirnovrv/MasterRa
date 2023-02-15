@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f71c2e5b-01cb-451e-8508-c9bf79fea0c4">
+  <producedTypes>
+    <objectType typeId="836a3ebb-7142-4d9b-b17b-126d5b8ea0c5" valueTypeId="76928687-8b73-43e6-9beb-ec6e9bcc4f48"/>
+    <refType typeId="fe765d06-16f8-49dc-a5a1-2aec072a4f61" valueTypeId="6739f6dc-7a3e-4825-95aa-96f3e94203e7"/>
+    <selectionType typeId="291bd6e8-65a4-4313-89e7-3c3cc35d537d" valueTypeId="511f7b53-dd1d-45c8-9fc5-4f996bd21e11"/>
+    <listType typeId="3151d3ad-aa8a-4aa5-950e-65c9452046ad" valueTypeId="114a3a9a-aba0-434d-9451-cf90248cd379"/>
+    <managerType typeId="138d5f29-a462-40c6-8091-f8203dc0aeda" valueTypeId="0e80ff76-3dcd-448b-8810-fc17c12cd7e7"/>
+  </producedTypes>
+  <name>МатериалОсновы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материал основы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МатериалОсновы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МатериалОсновы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b1ed0abc-8af7-4d44-84d1-28a47eaa4163">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b988a4be-e65d-4557-8b64-ef4239f2be4a">
+  <producedTypes>
+    <refType typeId="5c3d2ed3-e663-479c-882e-b2b629e9e5eb" valueTypeId="c1b6b272-2bc1-40e5-a254-3d3660363a7b"/>
+    <listType typeId="1c8ab1a8-e453-4771-8800-113ec88effcd" valueTypeId="0ed3a40a-bd49-4e04-a2ef-4af0f262151a"/>
+    <managerType typeId="c870220e-0149-4f60-a629-b9388d486ac6" valueTypeId="a57e9547-a4f2-42a7-99cc-7139c8841d48"/>
+  </producedTypes>
+  <name>ДопТребованияКУпаковке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп требования к упаковке</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="684c7654-7f43-4878-9887-b9a17505d2b9">
+    <name>Конверт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конверт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afadd7ba-fac1-4e2a-a8fb-7833b400b8a2">
+    <name>МягкаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мягкая упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd7d5dba-b4b8-4de7-b444-0abc9c6e6203">
+    <name>НамотатьНаТубус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Намотать на тубус</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="751216cb-cce6-4236-9136-0afe029553dc">
+    <name>Рулон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рулон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="186588a7-e89b-4245-82fb-8c4007a7b06a">
+    <name>УпаковкаДляТранспортнойКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка для транспортной компании</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

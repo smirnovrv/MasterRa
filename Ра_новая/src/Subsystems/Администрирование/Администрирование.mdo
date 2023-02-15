@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b301d084-2ef5-45d8-9e50-2a4f6d81d290">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Администрирование</picture>
+  </picture>
+  <content>InformationRegister.ОтвественныеЛица</content>
+  <content>InformationRegister.СооставБригады</content>
+  <content>InformationRegister.ТарифЦеха</content>
+  <content>InformationRegister.НастройкиПараметров</content>
+  <content>DataProcessor.ВыгрузкаВБухгалерию_30</content>
+  <content>CommonCommand.Справка</content>
+</mdclass:Subsystem>

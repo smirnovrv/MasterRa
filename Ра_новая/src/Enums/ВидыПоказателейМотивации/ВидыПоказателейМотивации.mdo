@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b97ad4fa-086d-427d-b4ef-609254afd202">
+  <producedTypes>
+    <refType typeId="62022e0c-acbb-4cca-a9c8-24e8da774704" valueTypeId="f17cc339-e577-4fa0-8825-fe658666a756"/>
+    <listType typeId="5b34d363-4a2a-484d-9146-4f062e2d6bc8" valueTypeId="a07726d0-8e4c-42b7-9c22-1a63d50ad3bb"/>
+    <managerType typeId="3b5975a0-e86a-44aa-92c5-78bf5e0233da" valueTypeId="68c35f79-2c64-4ab7-ab00-358c0ab59105"/>
+  </producedTypes>
+  <name>ВидыПоказателейМотивации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды показателей мотивации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7ceea8fd-ad91-4fc0-89fd-416d1ddbedb9">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment>Значением показателя является число</comment>
+  </enumValues>
+  <enumValues uuid="fcdf935a-55c7-4f19-bd84-93c46bd37ff7">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <comment>Показатель задан в процентах, т.е. при расчетах его значение надо будет переводить в число. Например, если задано значение 50 для процентного показателя, то необходимо в расчетах использовать число 50/100 т.е. 0,5</comment>
+  </enumValues>
+</mdclass:Enum>

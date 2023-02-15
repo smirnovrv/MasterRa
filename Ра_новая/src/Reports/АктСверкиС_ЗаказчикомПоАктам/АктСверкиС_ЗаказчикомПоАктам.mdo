@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e148e507-f921-4a75-8771-89f0810552c1">
+  <producedTypes>
+    <objectType typeId="3ebb2e0d-242e-47a4-a8e9-08aaae0084c6" valueTypeId="c658e02d-4c5a-44d7-81d5-9faecee658db"/>
+    <managerType typeId="5206d156-c670-4445-ad4e-bc14ca9a0e62" valueTypeId="d17b2931-390a-4fc8-8f4a-698586a98460"/>
+  </producedTypes>
+  <name>АктСверкиС_ЗаказчикомПоАктам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт сверки с заказчиком по актам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АктСверкиС_ЗаказчикомПоАктам.Form.ФормаОтчета</defaultForm>
+  <forms uuid="ba05542e-bed0-40ec-89bf-7da7d6dd021e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3ad2af4a-2af3-48c6-96aa-c7528d036525">
+    <name>Макет1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет1</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

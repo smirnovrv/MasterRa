@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2dc4082-02a4-48e6-9050-80376e09f425">
+  <producedTypes>
+    <objectType typeId="ae42870a-1a44-4be0-871f-ee10c1678f6b" valueTypeId="213b3ee3-5ae3-4215-ac50-55ce8717eb35"/>
+    <managerType typeId="c41fdd36-a087-4bac-a0e1-7f8e39c2f738" valueTypeId="02bb4b40-470a-4286-9659-2854a4c3b205"/>
+  </producedTypes>
+  <name>СверкаСКлиентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка с клиентом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СверкаСКлиентом.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="aab3391c-daea-4fa2-a081-b783c66b2fa4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="6620c44b-14c0-4c0e-a412-5c984252e15d">
+    <name>СверкаСКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка с клиентом</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

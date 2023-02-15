@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a532f147-9ffe-4ae1-b770-3f84229543dd">
+  <producedTypes>
+    <objectType typeId="c53e645e-0170-4a9e-81fd-bcaf90fd780d" valueTypeId="1b076f52-7815-4bb7-8454-9bfa486b2eb8"/>
+    <refType typeId="7d96720a-4bdb-47e7-bac5-ac1b5e7c8aa7" valueTypeId="5fe5659a-1414-469b-ae35-7d704317f2c1"/>
+    <selectionType typeId="8a39ab5b-403b-4ceb-98bf-2d3d84d1fe0d" valueTypeId="828ebb05-1cea-4458-b459-db29c0764008"/>
+    <listType typeId="5e164126-5811-47c8-91e9-e0b0c02990f0" valueTypeId="355ddfd8-eab0-4fab-8463-ca0915186e20"/>
+    <managerType typeId="774bda14-34e5-4ea3-9018-db83f7f457c7" valueTypeId="df57a773-97ce-4b06-bf14-9fb672b213dc"/>
+  </producedTypes>
+  <name>СчетФактураВыданный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет фактура </value>
+  </synonym>
+  <comment>Счет фактура </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СчетФактураВыданный.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.Акт</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Счет фактура </value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Счет фактура </value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Счет фактура </value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Счет фактура </value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Счет фактура </value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ffd42e8a-aa65-464b-9e0b-1083d13954a5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2686c59-b66d-4689-a3b3-dbafe8bf35f9">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e72497e-d3ee-4859-9a66-4351df78626a">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b55b2ec-b7f5-44a2-9185-57b27a605c88">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Акт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82347c08-fda2-42af-822a-9db61ab184b8">
+    <name>Отвественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отвественный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bead99b-9a40-4ae5-a78b-fec49c5114da">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <templates uuid="cf238b46-bf43-40b6-8657-eedecc637860">
+    <name>СчетФактура1137</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по постановлению № 1137 от 26.12.2011 г.</value>
+    </synonym>
+  </templates>
+  <templates uuid="0444347e-2802-48d6-b85c-990c03f3d632">
+    <name>СчетФактура534</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по Постановлению № 1137 (в редакции Постановления № 534)</value>
+    </synonym>
+  </templates>
+  <templates uuid="d58a8f69-8734-45f9-a782-e851b8d068d7">
+    <name>ПФ_MXL_СчетФактура451</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-фактура по постановлению №451</value>
+    </synonym>
+    <comment>Макет счета-фактуры согласно постановлению №451 от 26.05.2009 г.</comment>
+  </templates>
+  <commands uuid="3e9a14b3-50c7-4a11-a25c-ec43a2175774">
+    <name>ПечатьСчетФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать счет фактуры</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СчетФактураВыданный</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

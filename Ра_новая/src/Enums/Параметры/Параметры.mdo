@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c222cc98-42b7-4e70-8c6c-6cae428a388c">
+  <producedTypes>
+    <refType typeId="a511e3ca-bda2-41f1-8c30-ddf7eb6e4bc4" valueTypeId="608beb08-f510-4413-a1d3-f154d9a320f9"/>
+    <listType typeId="04d90002-2458-400a-9a7e-cea5ef2d3fd0" valueTypeId="69dabd24-6da5-4f2b-8cfa-b374d3e67041"/>
+    <managerType typeId="7a163e02-ac9b-4815-971a-f54bd5fec764" valueTypeId="a1985be8-97d9-417d-895a-6f521d80b810"/>
+  </producedTypes>
+  <name>Параметры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b502043-a658-4537-a214-ff6f8caa1177">
+    <name>КоэффУчетаПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэфф учета полей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc00a0a8-5417-4656-b568-2c3f4442ba28">
+    <name>КоэффРасходаКраски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэфф расхода краски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0dbe0fd-38c1-483b-8e31-ce9527f1a0eb">
+    <name>ЦенаЗаКраску</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за краску</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

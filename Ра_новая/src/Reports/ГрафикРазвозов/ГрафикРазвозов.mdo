@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8581b33a-db8f-48f4-bfee-85c24a7beb52">
+  <producedTypes>
+    <objectType typeId="dc02bbd4-bf96-418d-83c2-ed26a81f03c7" valueTypeId="14de26f1-a370-4c41-bb70-20e16dc55eb7"/>
+    <managerType typeId="b765ec9e-8c15-4d19-afcb-36fa3eaba5d6" valueTypeId="46413a6d-f623-4ff7-8147-fd7be0092a2a"/>
+  </producedTypes>
+  <name>ГрафикРазвозов</name>
+  <synonym>
+    <key>ru</key>
+    <value>График развозов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ГрафикРазвозов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2541a313-bef0-48f0-8e89-4dae759e0fc7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

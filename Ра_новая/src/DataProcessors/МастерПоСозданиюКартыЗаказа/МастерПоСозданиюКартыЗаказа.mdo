@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c290c084-29c5-4613-9e0d-5366b474216d">
+  <producedTypes>
+    <objectType typeId="285577ca-a95e-48c3-8041-4675a20b388a" valueTypeId="cad1ae85-3e68-4aba-8c21-2b62a545714f"/>
+    <managerType typeId="cc96f1cd-1c41-4cc9-b881-5bd8386cc3da" valueTypeId="a834dd14-f001-4d6d-bdcb-f95295254e05"/>
+  </producedTypes>
+  <name>МастерПоСозданиюКартыЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МастерПоСозданиюКартыЗаказа.Form.Форма</defaultForm>
+  <forms uuid="c8b52f65-c59d-4cc4-ac17-55feaf1378e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

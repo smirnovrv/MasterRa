@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a50727a-da6c-4944-9e76-901e19b037e2">
+  <producedTypes>
+    <selectionType typeId="f5845b7f-2596-442c-b62a-4f4435fe4d76" valueTypeId="e38001db-c3e7-44bf-9745-399bd53597e6"/>
+    <listType typeId="86599546-174a-4058-ae2e-0456c7a35759" valueTypeId="b53eed88-c833-453f-b151-254012b70ecf"/>
+    <managerType typeId="370a4f12-6584-4f39-8bb7-d54d9863913c" valueTypeId="f180d7ab-f042-4357-bf35-f546abb8ca6e"/>
+    <recordSetType typeId="89fd8aa9-e3c4-424b-a581-ea442c35430e" valueTypeId="f0ec8303-0eba-4e8f-8608-f34ef8d97d7b"/>
+    <recordKeyType typeId="bf6da511-074d-4223-9b7f-21e3d4af6b06" valueTypeId="db64708c-a525-49df-a7aa-ca370e4aaf3f"/>
+    <recordType typeId="4cc7bcd6-4433-4bda-9c5e-fade2801be69" valueTypeId="69d5f091-b729-439a-bb47-0ea4dd059dd0"/>
+    <recordManagerType typeId="02fe2b18-5bfe-483b-9cca-382333cafe3f" valueTypeId="8cef5168-43de-47cf-8ea1-d0855c5729ff"/>
+  </producedTypes>
+  <name>ЦеныРулонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены рулонов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="81af44c5-136e-400f-82b1-4847ee8f8ff1">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e448da1d-34b4-4d41-8b0d-d5cdfae2990c">
+    <name>Рулон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рулон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

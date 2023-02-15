@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f8f3592-948e-41c3-96dd-71f4ebb6c6ec">
+  <producedTypes>
+    <objectType typeId="6b0c0fe2-63fc-40e7-ac26-012ca0df1867" valueTypeId="c16dabeb-679c-4758-90ee-efb4acda914c"/>
+    <managerType typeId="36a9610d-f7d8-4f69-b5f0-3c579c919d61" valueTypeId="fb5fd6d4-ebe1-4394-a6dc-7b748b44ce41"/>
+  </producedTypes>
+  <name>ОтчетНачПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет нач производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетНачПроизводства.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5c1f7a6f-22a5-4d40-807a-5e9437580021">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

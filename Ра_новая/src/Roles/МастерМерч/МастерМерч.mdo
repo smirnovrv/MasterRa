@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="478136f0-1213-4a3c-89e2-4bc2dae67626">
+  <name>МастерМерч</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер мерч</value>
+  </synonym>
+</mdclass:Role>

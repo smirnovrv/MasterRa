@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e02e61c3-29b7-46f5-a351-a4e815d464e5">
+  <name>ДвиженияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения документов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

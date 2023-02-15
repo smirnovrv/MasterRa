@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a88bca1a-7a40-4dca-b7c1-8878b018340d">
+  <producedTypes>
+    <selectionType typeId="7ff6657c-3839-4b9f-8ed8-d7ca86f740c4" valueTypeId="daafc326-2861-4e8d-aaaa-046aae8651b6"/>
+    <listType typeId="ca465b3d-7069-4edc-9334-e53a1859fa5f" valueTypeId="e5269725-82db-45bb-96c5-6bbd8e7533a3"/>
+    <managerType typeId="a89ebaaa-4e74-4326-9415-81ed69ba84aa" valueTypeId="eb4d4cbd-d9e7-4328-ba85-37ebcd90b558"/>
+    <recordSetType typeId="68bf0833-e504-453a-aa19-0343c3540517" valueTypeId="55d16011-ab14-42f3-adaf-3edc1e8f194c"/>
+    <recordKeyType typeId="6441c7ce-a8e7-4c6b-9c79-3d6d36a8f7dd" valueTypeId="b53da7c8-d72e-484b-92d7-ff694fe58d14"/>
+    <recordType typeId="9ffa3e0d-2cb3-4c76-809d-8ac8d1ae6e72" valueTypeId="91b04eb8-14b7-467e-9c69-9fbe468cd685"/>
+    <recordManagerType typeId="397f3862-a791-4a02-8aec-b2e7683bf6da" valueTypeId="bca1396c-ca03-4f3e-97d1-1457438fa104"/>
+  </producedTypes>
+  <name>БрендыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бренды контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="98a2c955-a10a-417c-a7cb-1751dcd01d58">
+    <name>Бренд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Бренды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c66faebf-0654-4a8b-964c-a4575fe05f5c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

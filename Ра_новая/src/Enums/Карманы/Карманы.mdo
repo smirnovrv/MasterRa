@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="833c4539-77ab-4bc2-887f-25ebbed56dc7">
+  <producedTypes>
+    <refType typeId="7faa7bf3-a88f-43ee-b86f-c2b164ef9e1a" valueTypeId="c56e983f-b4f5-486b-95ed-2ce6b9974fed"/>
+    <listType typeId="4fcb1a15-a4bd-48af-bdfe-da3815a6ab09" valueTypeId="5844ef50-b621-41e8-8820-5785f6fb4721"/>
+    <managerType typeId="4ddcd8a7-6bed-4ff6-a64c-5a64ca334b93" valueTypeId="f78425ca-2ee0-426b-bc07-199015818cbe"/>
+  </producedTypes>
+  <name>Карманы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карманы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b300da31-2c1b-4f0a-a4eb-17e5300dee94">
+    <name>Прошить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошить</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1c8c934-6c1e-49a9-a538-9022a220a0db">
+    <name>Проклеить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проклеить</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92948fa3-c842-455d-917a-af6414c327ee">
+  <producedTypes>
+    <selectionType typeId="e35e7cba-f435-4dd0-be3b-446b8fe329c7" valueTypeId="c40f5a58-d76f-45bc-af9f-65a5f3730a05"/>
+    <listType typeId="1058ba60-896d-4cf0-bc43-6d28fc381122" valueTypeId="76726c00-4edb-4b27-91cf-d0b5f173534b"/>
+    <managerType typeId="7685d939-8d8c-448c-91b1-73dbe36dca13" valueTypeId="616eec2a-cff1-421e-9dee-d26dad8cce4b"/>
+    <recordSetType typeId="8d4b2422-49f9-4b52-b65d-6e0ef69035d5" valueTypeId="ab7d571a-bb6a-44fe-8830-835bd08bdc96"/>
+    <recordKeyType typeId="e3d592c6-bfd7-4c8b-9cbe-46f5cfbb6883" valueTypeId="a1d36337-120d-4b81-a862-31c87cd5f90d"/>
+    <recordType typeId="cca8b277-0fd7-418d-8040-d2ed8c04b5c7" valueTypeId="1319a2ab-3648-466b-8bfc-d9dbaddae8d2"/>
+    <recordManagerType typeId="26297a4a-91c0-40d8-af46-ebe8df9e85f2" valueTypeId="66492202-61f3-405b-91ad-64af2901b815"/>
+  </producedTypes>
+  <name>СоотвествиеМатериалаОсновыИМатериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соотвествие материала основы и материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="7a1673f2-a819-4d63-ac35-ea98052d8889">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6898b276-caf0-4ed1-9ccf-d2cbffddd5a8">
+    <name>МатериалОсновы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал основы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МатериалОсновы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27a5be0-2cb2-4327-b05e-43da5dcbd6b6">
+  <producedTypes>
+    <refType typeId="b174ec40-b21a-4b79-98d1-49be3cb55db0" valueTypeId="3793fc55-e0c6-4e73-8c18-551e0da1f736"/>
+    <listType typeId="38f64bc7-a9bd-467f-874f-d50b34e81693" valueTypeId="9d8e8cb3-47e6-47f2-b7ab-a53bdc8d81c1"/>
+    <managerType typeId="b1fea2fd-a42b-4ef3-8685-620975b865c6" valueTypeId="30f0a50a-1476-4b44-b7e8-1d33e65677f4"/>
+  </producedTypes>
+  <name>ТипыМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы материалов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7dc7dd98-cb46-434a-9201-8f1968903f37">
+    <name>Банер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="541330dd-bffa-41bd-8fab-c1cb0c0395dc">
+    <name>Бумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бумага</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1be092d7-f250-4077-b341-8948b3344f41">
+    <name>Клей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eaae174-1f12-4d34-8827-f2f4f1171267">
+    <name>Композит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Композит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f61317a-69d6-4e18-9f77-19effb73b055">
+    <name>Крепеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крепеж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11f4ba00-8af8-4ce2-8b72-7880c5ce28ff">
+    <name>Металлоконструкции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлоконструкции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed7a664f-58a1-4388-9ca9-3c7611359ff8">
+    <name>Обои</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обои</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5fd9c32-05ab-4f46-b226-d46fc1cdeae9">
+    <name>Пластик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пластик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce76ca5b-9041-413a-b55a-3d3d963e1221">
+    <name>Пленка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пленка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7026381-ff50-4f80-a3fb-8b93d1e94fec">
+    <name>Полиэстер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полиэстер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41a6e6cc-1407-4d96-b6f7-d27248ed010c">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae7a6f38-7b76-422d-8b6b-c6f72bdebec2">
+    <name>Светотехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Светотехника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b4f2387-9099-4597-82ca-3871e328c842">
+    <name>Сетка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc84a2e8-2b92-48e9-bf2b-a1360300bef2">
+    <name>Холст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холст</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a585156-6cc9-404c-8edc-5b15fa7157a5">
+  <producedTypes>
+    <refType typeId="38ae9df4-de3e-4304-b74e-b641fa6cbb64" valueTypeId="3b0ee19e-ef37-4c26-80c2-4d8466789b3d"/>
+    <listType typeId="b1e479cb-1c1a-43e2-abc9-44d0a985fa86" valueTypeId="cf9f6390-e2c6-4cca-9b22-96616a50c001"/>
+    <managerType typeId="277faf5c-9509-4027-8be9-187e2b35e57e" valueTypeId="feef7fc2-30f0-4293-b4db-91f249878fba"/>
+  </producedTypes>
+  <name>РазрешенияПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешения печати</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90fdd696-2478-4928-9812-93b26ed69b95">
+    <name>_360</name>
+    <synonym>
+      <key>ru</key>
+      <value>360 dpi</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d865166-4912-44d8-9e83-7f88ab103e42">
+    <name>_720</name>
+    <synonym>
+      <key>ru</key>
+      <value>720 dpi</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

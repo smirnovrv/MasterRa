@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a377500b-78e1-42c0-8d0e-15fae0b3c4c9">
+  <producedTypes>
+    <selectionType typeId="54bd6ab9-e4a8-4cdd-bf9e-dd89b6fa5eae" valueTypeId="999d08e4-f13e-499c-8ab8-a226365e26b0"/>
+    <listType typeId="256fd853-c874-4047-8b05-912315d8b66d" valueTypeId="c008c596-b1be-4467-b821-0284460f83c4"/>
+    <managerType typeId="7621b490-1dba-4577-a6c8-a9cf306ddfcb" valueTypeId="5be3713b-7544-4bc2-8735-d305473c9d37"/>
+    <recordSetType typeId="9912216c-e2dd-4fb8-9e9e-cbfb9c28ff1a" valueTypeId="f6f5adbb-4aad-4efd-889b-4072449c935d"/>
+    <recordKeyType typeId="e30d3924-bebb-4568-a64a-9d7affcab22c" valueTypeId="b29a4d77-e91a-4f05-9353-081188eab7c5"/>
+    <recordType typeId="d0c20635-4476-497a-ba15-1716f5b70f97" valueTypeId="b990b89f-3c86-465f-8fa8-d85c863327ce"/>
+  </producedTypes>
+  <name>Рулоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рулоны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="928a9469-af21-445c-945c-1ede60cc614d">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a3bbeccc-b3ee-4559-b43b-2b4f032755ac">
+    <name>Рулон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рулон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="eb16dd4d-afeb-4d8b-aaba-85961694d79a">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="68bbfedb-0031-4d36-a15d-9e3a43936366">
+    <name>МатериалОсновы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал основы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МатериалОсновы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

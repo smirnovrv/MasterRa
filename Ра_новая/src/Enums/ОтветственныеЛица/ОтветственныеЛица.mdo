@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c10fc739-99cc-40e8-8338-1ce2777ef917">
+  <producedTypes>
+    <refType typeId="52cd62b9-70f6-4ba2-974a-79d74ea44b8e" valueTypeId="7bab56c1-6be5-41c5-9dd6-425bcd94be73"/>
+    <listType typeId="d7f50a68-b3b2-4d93-90b9-df6fa9bb4e16" valueTypeId="cfe1c268-8caf-41ed-a137-932643f2ad46"/>
+    <managerType typeId="4ae5bf30-186e-42a0-be7d-a07eaf526e48" valueTypeId="c14d2181-b67f-47bb-9719-70f24a810640"/>
+  </producedTypes>
+  <name>ОтветственныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10df9638-8704-4b73-a1a7-5d71dc1f6681">
+    <name>ГлавныйБухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный бухгалтер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9442eff-3c41-4767-8a72-f2f1fc541bf9">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf97a091-4ac6-45c2-8185-7977a2a6d312">
+    <name>Кассир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="422b8ff8-f151-4638-b127-e6b068f15440">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

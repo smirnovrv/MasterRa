@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aad21233-0bd9-4f58-90a7-7d67be6218ce">
+  <producedTypes>
+    <refType typeId="b2d329eb-1290-4e1f-a8d8-6c643fb6652f" valueTypeId="488b62de-58e7-4923-8a58-02702100c72d"/>
+    <listType typeId="5b296e76-4757-43fe-9469-d7965fce0677" valueTypeId="b941df1b-1271-4984-95c6-96409a217a38"/>
+    <managerType typeId="480700bb-d926-4831-82a0-89eb1af5fcdd" valueTypeId="37a2a45c-0a82-40ab-8ff0-90bf017d5d14"/>
+  </producedTypes>
+  <name>ВидРаботПоПериметру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид работ по периметру</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ab4421e-bf9e-41f2-981b-690ec101b850">
+    <name>Карманы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карманы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed612486-700e-4081-a2c9-ad1fc3a90386">
+    <name>ОбработатьПоСхемеЗаказчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать по схеме заказчика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3ae40ef-bc17-4756-952d-99997fe18bcb">
+    <name>ОбработкаПрессом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка прессом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="271f3250-e937-4abe-916c-9725d8da1cac">
+    <name>ОбрезатьВНоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрезать в ноль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1261dd19-71e8-4c61-ad75-3eab8b04bde7">
+    <name>Перфорация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перфорация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76f83a52-af42-4d8f-88c2-3be577961c9f">
+    <name>ПоИзображению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По изображению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed1934d5-b799-47b4-bc5b-c543fb04502b">
+    <name>ПроклеитьУсиление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проклеить усиление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bed23a6-9c3d-49a5-acc4-31990febfb15">
+    <name>УсилениеНаСтеплер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Усиление на степлер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="684aed9e-5980-4373-aaad-b8fa848ae767">
+    <name>УстановитьЛюверсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить люверсы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

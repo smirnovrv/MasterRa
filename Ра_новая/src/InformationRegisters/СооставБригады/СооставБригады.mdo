@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cd59b48-5b46-419a-9542-61c11cbb6d9f">
+  <producedTypes>
+    <selectionType typeId="9ff06c9d-0537-46ed-b00f-913892dc4993" valueTypeId="d3b9e2ec-f159-4625-9fbb-47e730151493"/>
+    <listType typeId="11b5728d-2120-4a9b-8855-2a62a4ebd83f" valueTypeId="3aea5869-310b-44f9-9b9c-8103d8876573"/>
+    <managerType typeId="e3d5698f-444f-47a4-96b1-2947fdeca204" valueTypeId="2369803b-203d-4c39-b8a9-aaefd9d8ad15"/>
+    <recordSetType typeId="fa5bdc6a-e4ec-4b95-af32-812ff1239e62" valueTypeId="9bffd948-583b-4de1-bece-87fffdd1536d"/>
+    <recordKeyType typeId="53e7ebd8-a918-4d8d-9c3f-535b0a7d4ef6" valueTypeId="3cfefe7d-c35a-4163-bcd1-b1127298b8be"/>
+    <recordType typeId="d175cf12-e130-47c8-aeb6-1c86b5fe8f43" valueTypeId="fe2e0ebd-9700-4b39-be99-408621b98700"/>
+    <recordManagerType typeId="9a026b9f-df76-4fb5-a27a-92974d8e918b" valueTypeId="c5db8dbe-54da-4097-8e78-566c3ae155a3"/>
+  </producedTypes>
+  <name>СооставБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соостав бригады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Соостав бригады</value>
+  </recordPresentation>
+  <dimensions uuid="f715de3d-a96b-4a59-9ccf-7b7aca90ca68">
+    <name>Печатник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b901fbfa-2d66-4f01-bf4b-ec102a3cce9a">
+    <name>Техник1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техник1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="70e7d5db-ac94-4ce3-a238-2757953f9fe8">
+    <name>Техник2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техник2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="39a2a293-0b7e-4088-bc89-ff8578bd0193">
+    <name>Техник3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техник3</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
