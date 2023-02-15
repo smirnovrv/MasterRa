@@ -1746,18 +1746,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>AccumulationRegister.Рулоны</name>

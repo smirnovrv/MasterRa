@@ -2176,14 +2176,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>InformationRegister.Заказы.StandardAttribute.Active</name>
