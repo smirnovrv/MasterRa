@@ -798,6 +798,10 @@
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.НарядНаПроизводство.TabularSection.СвязанныеНаряды.Attribute.Наряд</name>
