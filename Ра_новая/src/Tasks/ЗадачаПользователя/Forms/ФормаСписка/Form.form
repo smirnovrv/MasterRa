@@ -105,6 +105,10 @@
         <segments>ОтборПоАвтору</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтборПоАвторуПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтборПоАвторуРасширеннаяПодсказка</name>
         <id>211</id>
@@ -236,6 +240,10 @@
         <segments>ОтборПоИсполнителю</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>ОтборПоИсполнителюПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ОтборПоИсполнителюРасширеннаяПодсказка</name>
         <id>214</id>
