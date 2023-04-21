@@ -1542,6 +1542,10 @@
 			<name>Output</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>UpdateDataBaseConfiguration</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.РасходныйКассовыйОрдер.TabularSection.Заказы.Attribute.КодЗаказа</name>
@@ -1779,6 +1783,10 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
 			<value>true</value>
 		</right>
 	</object>
