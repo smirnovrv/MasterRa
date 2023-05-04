@@ -1499,6 +1499,10 @@
 	<object>
 		<name>Configuration.ШирокоформатнаяПечать</name>
 		<right>
+			<name>UpdateDataBaseConfiguration</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ThinClient</name>
 			<value>true</value>
 		</right>
@@ -1540,10 +1544,6 @@
 		</right>
 		<right>
 			<name>Output</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataBaseConfiguration</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1778,15 +1778,15 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>InteractiveChangeOfPosted</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
 			<value>true</value>
 		</right>
 	</object>
