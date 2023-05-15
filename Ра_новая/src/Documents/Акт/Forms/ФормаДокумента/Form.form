@@ -296,6 +296,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Организация</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ОрганизацияПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ОрганизацияРасширеннаяПодсказка</name>
             <id>27</id>
