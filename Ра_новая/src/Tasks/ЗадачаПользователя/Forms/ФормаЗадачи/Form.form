@@ -672,6 +672,10 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartChoice</event>
+              <name>КомментарииИФайлыСсылкаНаФайлНачалоВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
@@ -724,10 +728,6 @@
         <handlers>
           <event>Selection</event>
           <name>КомментарииИФайлыВыбор</name>
-        </handlers>
-        <handlers>
-          <event>ChoiceProcessing</event>
-          <name>КомментарииИФайлыОбработкаВыбора</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
