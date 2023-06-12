@@ -634,152 +634,6 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>9</index>
-		<row>
-			<formatIndex>41</formatIndex>
-			<c>
-				<c>
-					<f>42</f>
-					<parameter>ВыплатыНомер</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>43</f>
-					<parameter>ВыплатыИмя</parameter>
-				</c>
-			</c>
-			<c>
-				<i>7</i>
-				<c>
-					<f>44</f>
-					<parameter>ВыплатыБНек</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>44</f>
-					<parameter>ВыплатыБНпм</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>45</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>44</f>
-					<parameter>ВыплатыБНип</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>46</f>
-					<parameter>ВыплатыБН</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>47</f>
-					<parameter>ВыплатыНек</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>47</f>
-					<parameter>ВыплатыНпм</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>46</f>
-					<parameter>ВыплатыН</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>46</f>
-					<parameter>ВыплатыИтог</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>10</index>
-		<row>
-			<c>
-				<c>
-					<f>19</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>48</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ИТОГО ВЫПЛАТ:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<i>7</i>
-				<c>
-					<f>21</f>
-					<parameter>ВыплатыБНекИт</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>21</f>
-					<parameter>ВыплатыБНпмИт</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>27</f>
-					<parameter>ВыплатыБНИтог</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>21</f>
-					<parameter>ВыплатыНекИт</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>21</f>
-					<parameter>ВыплатыНпмИт</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>27</f>
-					<parameter>ВыплатыНИтог</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>27</f>
-					<parameter>ВыплатыИтогИтог</parameter>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>17</index>
 		<row>
 			<empty>true</empty>
@@ -787,9 +641,9 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>2</defaultFormatIndex>
-	<height>11</height>
+	<height>9</height>
 	<vgLevels>1</vgLevels>
-	<vgRows>11</vgRows>
+	<vgRows>9</vgRows>
 	<vg>
 		<b>5</b>
 	</vg>
@@ -849,16 +703,6 @@
 		<c>1</c>
 		<w>5</w>
 	</merge>
-	<merge>
-		<r>9</r>
-		<c>1</c>
-		<w>5</w>
-	</merge>
-	<merge>
-		<r>10</r>
-		<c>1</c>
-		<w>5</w>
-	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ОстатокПП</name>
 		<area>
@@ -870,31 +714,11 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>ПодвалВыплаты</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>10</beginRow>
-			<endRow>10</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
 		<name>ПодвалПоступление</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>8</beginRow>
 			<endRow>8</endRow>
-			<beginColumn>-1</beginColumn>
-			<endColumn>-1</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
-		<name>СтрокаВыплаты</name>
-		<area>
-			<type>Rows</type>
-			<beginRow>9</beginRow>
-			<endRow>9</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1239,66 +1063,5 @@
 				<v8:content>ЧН=0</v8:content>
 			</v8:item>
 		</format>
-	</format>
-	<format>
-		<protection>false</protection>
-	</format>
-	<format>
-		<border>0</border>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<fillType>Parameter</fillType>
-		<protection>false</protection>
-	</format>
-	<format>
-		<border>0</border>
-		<fillType>Parameter</fillType>
-		<protection>false</protection>
-	</format>
-	<format>
-		<border>0</border>
-		<fillType>Parameter</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧН=0</v8:content>
-			</v8:item>
-		</format>
-	</format>
-	<format>
-		<border>0</border>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧН=0</v8:content>
-			</v8:item>
-		</format>
-	</format>
-	<format>
-		<border>0</border>
-		<fillType>Parameter</fillType>
-		<protection>false</protection>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧН=0</v8:content>
-			</v8:item>
-		</format>
-	</format>
-	<format>
-		<border>0</border>
-		<width>107</width>
-		<fillType>Parameter</fillType>
-		<protection>false</protection>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧН=0</v8:content>
-			</v8:item>
-		</format>
-	</format>
-	<format>
-		<font>0</font>
-		<border>0</border>
-		<horizontalAlignment>Right</horizontalAlignment>
 	</format>
 </document>
