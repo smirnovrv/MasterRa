@@ -87,6 +87,7 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultListForm>Document.СчетФактураВыданный.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ffd42e8a-aa65-464b-9e0b-1083d13954a5">
@@ -183,6 +184,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="8b8e582c-66c9-41fe-8422-0eba14448878">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="cf238b46-bf43-40b6-8657-eedecc637860">
     <name>СчетФактура1137</name>
     <synonym>

@@ -56,9 +56,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>ГДЕ Организация = &amp;ТекущаяОрганизация</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
@@ -458,9 +455,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>ГДЕ Организация = &amp;ТекущаяОрганизация</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -1366,9 +1360,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>ГДЕ Организация = &amp;ТекущаяОрганизация</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -2324,9 +2315,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>ГДЕ Организация = &amp;ТекущаяОрганизация</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
