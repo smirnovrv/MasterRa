@@ -56,13 +56,13 @@
 		<columnsItem>
 			<index>13</index>
 			<column>
-				<formatIndex>8</formatIndex>
+				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>12</index>
 			<column>
-				<formatIndex>5</formatIndex>
+				<formatIndex>8</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
@@ -149,7 +149,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Нал (касса Офис)</v8:content>
+							<v8:content>Нал</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -233,18 +233,18 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>НАЛ</v8:content>
+							<v8:content>Мастер Ра</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>19</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>БУ</v8:content>
+							<v8:content>Мастер Мерч</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -267,12 +267,12 @@
 		<row>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -284,53 +284,53 @@
 			<c>
 				<i>7</i>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>ОстДСфактНаНач_РА</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>ОстДСфактНаНач_Трионикс</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>ОстДСфактНаНач_МастерМерч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>ОстДСфактНаНач_ИП</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>ОстДСфактНаНач_Итого</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>22</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>22</f>
+					<f>23</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>23</f>
-					<parameter>ОстДСфактНаНач_Касса</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>24</f>
+					<parameter>ОстДСфактНаНач_Касса</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
 					<parameter>ОстДСфактНаНач_Итог</parameter>
 				</c>
 			</c>
@@ -341,12 +341,12 @@
 		<row>
 			<c>
 				<c>
-					<f>25</f>
+					<f>26</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -358,47 +358,47 @@
 			<c>
 				<i>7</i>
 				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>26</f>
+					<f>27</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
 					<parameter>ОстДСфактНаНач_Всего</parameter>
 				</c>
 			</c>
@@ -409,53 +409,18 @@
 		<row>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>28</f>
+					<f>29</f>
 				</c>
 			</c>
 			<c>
 				<i>7</i>
 				<c>
-					<f>29</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>29</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>29</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>29</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>29</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>22</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>22</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>22</f>
+					<f>30</f>
 				</c>
 			</c>
 			<c>
@@ -463,76 +428,111 @@
 					<f>30</f>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<formatIndex>31</formatIndex>
+			<formatIndex>32</formatIndex>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<parameter>ПоступлениеНомер</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>34</f>
 					<parameter>ПоступлениеИмя</parameter>
 				</c>
 			</c>
 			<c>
 				<i>7</i>
 				<c>
-					<f>34</f>
+					<f>35</f>
 					<parameter>ПостБН_МастерРА</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<parameter>ПостБН_Трионикс</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<parameter>ПостБН_Мерч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>34</f>
+					<f>35</f>
 					<parameter>ПостБН_ИП</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>38</f>
 					<parameter>ПостБН</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>39</f>
 					<parameter>ПостНал</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>38</f>
-					<parameter>ПостБУ</parameter>
+					<f>40</f>
+					<parameter>ПостНалММ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>38</f>
 					<parameter>ПостНал_Итого</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>38</f>
 					<parameter>ПостИтог</parameter>
 				</c>
 			</c>
@@ -543,12 +543,12 @@
 		<row>
 			<c>
 				<c>
-					<f>19</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>41</f>
 					<parameter>Имя</parameter>
 				</c>
 			</c>
@@ -579,55 +579,55 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>итПостБН_МастерРА</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>итПостБН_Трионикс</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>42</f>
 					<parameter>итПостБН_Мерч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>28</f>
 					<parameter>итПостБН_ИП</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>28</f>
 					<parameter>итПостБН</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>24</f>
 					<parameter>итПостНал</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>23</f>
-					<parameter>итПостБУ</parameter>
+					<f>43</f>
+					<parameter>итПостНалММ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>28</f>
 					<parameter>итПостНал_Итого</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>28</f>
 					<parameter>итПостИтог</parameter>
 				</c>
 			</c>
@@ -790,7 +790,7 @@
 		<width>107</width>
 	</format>
 	<format>
-		<width>70</width>
+		<width>106</width>
 	</format>
 	<format>
 		<width>109</width>
@@ -841,6 +841,19 @@
 		<font>0</font>
 		<border>0</border>
 		<horizontalAlignment>Center</horizontalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=0</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>66</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -1047,6 +1060,19 @@
 		</format>
 	</format>
 	<format>
+		<font>1</font>
+		<border>0</border>
+		<width>107</width>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=0</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
 		<font>0</font>
 		<border>0</border>
 		<horizontalAlignment>Right</horizontalAlignment>
@@ -1056,6 +1082,18 @@
 		<font>0</font>
 		<border>0</border>
 		<width>109</width>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=0</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>107</width>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
