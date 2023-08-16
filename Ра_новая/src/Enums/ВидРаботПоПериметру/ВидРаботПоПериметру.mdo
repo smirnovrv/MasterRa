@@ -91,4 +91,11 @@
       <value>Установить люверсы</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="9f9190cf-dc9a-4f78-8aa7-2cd4579360f9">
+    <name>ПлоттернаяРезка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плоттерная резка</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
