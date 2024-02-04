@@ -7007,6 +7007,7 @@
 		<endColumnOffset>18</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -7023,7 +7024,7 @@
 		<endColumnOffset>3</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -7040,7 +7041,7 @@
 		<endColumnOffset>45</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>2</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<drawing>
@@ -7057,7 +7058,7 @@
 		<endColumnOffset>6</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>3</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>4</pictureIndex>
 	</drawing>
 	<drawing>
@@ -7074,7 +7075,7 @@
 		<endColumnOffset>9</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>4</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>5</pictureIndex>
 	</drawing>
 	<drawing>
@@ -7091,7 +7092,7 @@
 		<endColumnOffset>6</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>5</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>6</pictureIndex>
 	</drawing>
 	<drawing>
@@ -7108,7 +7109,7 @@
 		<endColumnOffset>51</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>6</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>7</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
@@ -23500,7 +23501,7 @@ KBQddLM8Ndy2GJGqFdA19wl7gkuhUCgUCoXif5Vulqf4y9vQsn27OfntN4zVo1Ao
 FAqFQvH/B/AfEBi/EcAruksAAAAASUVORK5CYII=</picture>
 	</picture>
 	<picture>
-		<index>6</index>
+		<index>5</index>
 		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAAoAAAAChCAIAAADYwJnOAAAAAXNSR0IArs4c6QAA
 AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAANpFSURBVHhe7J0F
 gBVVF8dn5sUWG3R3S4iUGIiCIoKUgGJ3F2ChoCK2mCgGKIiASkhJh0F3KJ3SXdv7
@@ -24670,7 +24671,7 @@ X2BGUdlKU8OsmZl9MzIyMjIyvgAUhPpReluSb4tZs2a2bj1/w9Cpb0x/9f81tG7d
 ZPArlQAAAABJRU5ErkJggg==</picture>
 	</picture>
 	<picture>
-		<index>8</index>
+		<index>6</index>
 		<picture t="false">iVBORw0KGgoAAAANSUhEUgAABQAAAAFCCAYAAACuO3CDAAAKN2lDQ1BzUkdCIElF
 QzYxOTY2LTIuMQAAeJydlndUU9kWh8+9N71QkhCKlNBraFICSA29SJEuKjEJEErA
 kAAiNkRUcERRkaYIMijggKNDkbEiioUBUbHrBBlE1HFwFBuWSWStGd+8ee/Nm98f
