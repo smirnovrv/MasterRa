@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ИП Смирнов Роман Викторович</vendor>
-  <version>2.13.24</version>
+  <version>2.14.1</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -192,6 +192,7 @@
   <informationRegisters>InformationRegister.ТарифЦеха</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныМатериалов</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныРулонов</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифыВидовРабот</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоАктам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоЗаказам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>

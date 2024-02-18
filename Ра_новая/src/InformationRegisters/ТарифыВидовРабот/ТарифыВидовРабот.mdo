@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26f99c0c-26ea-49e9-96cf-6818f4eb68e9">
+  <producedTypes>
+    <selectionType typeId="bdfc3097-34d9-4482-8a14-5bfb4e461f87" valueTypeId="606096b1-07b7-490c-bcfb-1ace89abcb93"/>
+    <listType typeId="4cd52197-ef06-4447-9e9c-fadea53a1d69" valueTypeId="c6a91393-5a95-4f2d-8b9b-8b60b01d8c87"/>
+    <managerType typeId="2f4cd08f-d6c1-472b-8d51-d1bc3b6fb9f2" valueTypeId="e76009db-caa3-48a0-a664-46e077fa70a9"/>
+    <recordSetType typeId="84d1ae60-57cc-421f-8d39-b4e78e013a11" valueTypeId="ae55a5e6-bbde-443f-8c71-2b9e55cafcb5"/>
+    <recordKeyType typeId="224c17c0-d9e9-475a-9b80-ab721670e91e" valueTypeId="cf2aaf90-87f3-4730-9713-25bf7bb41b88"/>
+    <recordType typeId="2cd64ba9-8737-4dc4-a9ce-4f69ec0e8ee9" valueTypeId="bca68571-1dca-411b-bff3-6b1f65017bb4"/>
+    <recordManagerType typeId="72d52404-e5cf-4fa1-8f6b-a3f1523c39c6" valueTypeId="a3f11d02-85ea-4987-9e8b-0dc7d015b3d4"/>
+  </producedTypes>
+  <name>ТарифыВидовРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы видов работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6c1f804d-fd28-44b9-a7e9-403a93b5a515">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6380d64d-92db-4a14-aa39-c476ee9ab5fc">
+    <name>ОсновнойВидРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид работ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f989d7e-701f-4027-a12d-5c5f66ea6834">
+    <name>ВидРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид работ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

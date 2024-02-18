@@ -102,6 +102,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="4324f49d-c4e3-4fef-be1e-e8e69440b3a3">
+    <name>МатериалСписанВКЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал списан в КЗ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="6e7e62b9-199e-4897-b6fa-4fadc72cfaed">
     <name>Подразделение</name>
     <synonym>
@@ -226,6 +241,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="706bf137-5adf-4655-b992-1028d1c9098c">
+    <name>ТарифЦеха2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф цеха 2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cb93a4f6-9a9c-42be-8867-6a71c978ff60">
+    <name>ТарифЦеха3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф цеха 3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="8f4b4512-fc73-4358-9dcd-e22a041e7341">
     <name>ТехническоеЗадание</name>
     <synonym>
@@ -253,21 +304,6 @@
         <precision>15</precision>
         <scale>2</scale>
       </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4324f49d-c4e3-4fef-be1e-e8e69440b3a3">
-    <name>МатериалСписанВКЗ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Материал списан в КЗ</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
