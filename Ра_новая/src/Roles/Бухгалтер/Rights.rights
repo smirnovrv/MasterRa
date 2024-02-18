@@ -1262,7 +1262,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.НарядНаПроизводство.Attribute.ТарифЦеха</name>
+		<name>Document.НарядНаПроизводство.Attribute.ТарифЦеха1</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

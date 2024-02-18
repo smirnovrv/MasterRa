@@ -224,10 +224,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7db1a095-c631-4e1d-80b0-83305f010596">
-    <name>ТарифЦеха</name>
+    <name>ТарифЦеха1</name>
     <synonym>
       <key>ru</key>
-      <value>Тариф цеха</value>
+      <value>Тариф цеха1</value>
     </synonym>
     <type>
       <types>Number</types>
