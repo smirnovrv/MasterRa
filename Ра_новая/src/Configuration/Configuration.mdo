@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ИП Смирнов Роман Викторович</vendor>
-  <version>2.14.3</version>
+  <version>2.15.1</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -88,6 +88,9 @@
   <commonModules>CommonModule.ПолучениеСписков</commonModules>
   <scheduledJobs>ScheduledJob.ВыгрузкаВБухгалтерию</scheduledJobs>
   <commonCommands>CommonCommand.Справка</commonCommands>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Догументы</commandGroups>
+  <commandGroups>CommandGroup.Регистры</commandGroups>
   <commonForms>CommonForm.ВыборСоставаБригады</commonForms>
   <commonForms>CommonForm.ФормаВыбораРулонов</commonForms>
   <commonForms>CommonForm.ФормаСправки_Общая</commonForms>
@@ -189,10 +192,10 @@
   <informationRegisters>InformationRegister.СоответствиеВидаРаботыИПродукции</informationRegisters>
   <informationRegisters>InformationRegister.СоответствиеПродукцииИСтоимости</informationRegisters>
   <informationRegisters>InformationRegister.СтоимостиЗаказов</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифыВидовРабот</informationRegisters>
   <informationRegisters>InformationRegister.ТарифЦеха</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныМатериалов</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныРулонов</informationRegisters>
-  <informationRegisters>InformationRegister.ТарифыВидовРабот</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоАктам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоЗаказам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>

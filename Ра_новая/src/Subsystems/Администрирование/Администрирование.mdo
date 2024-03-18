@@ -14,7 +14,10 @@
   <content>InformationRegister.СооставБригады</content>
   <content>InformationRegister.ТарифЦеха</content>
   <content>InformationRegister.НастройкиПараметров</content>
-  <content>DataProcessor.ВыгрузкаВБухгалерию_30</content>
   <content>CommonCommand.Справка</content>
   <content>InformationRegister.ДатаЗапретаРедактированияДанных</content>
+  <content>InformationRegister.ТарифыВидовРабот</content>
+  <content>InformationRegister.СоответствиеПродукцииИСтоимости</content>
+  <content>InformationRegister.СоответствиеВидаРаботыИПродукции</content>
+  <content>InformationRegister.СоотвествиеМатериалаОсновыИМатериалы</content>
 </mdclass:Subsystem>
